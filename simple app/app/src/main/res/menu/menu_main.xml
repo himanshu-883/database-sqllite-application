@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.josepablo.supercitoapp.MainActivity">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_shopping_cart_white_24dp"
+        android:title="Agregar Producto"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_carts"
+        android:icon="@drawable/ic_assignment_white_24dp"
+        android:title="Ver Carritos"
+        app:showAsAction="ifRoom"/>
+</menu>
